@@ -23,7 +23,13 @@
 <li>程序</li>
   <ol>
     <li>数据</li>
+    data/data.conll
     <li>代码</li>
+    <ul>
+      <li>make_data.py</li>将data.conll文件中的格式修改为：每行一句话，词语之间无空格，起名为data.txt
+      <li>make_dict.py</li>给一个人工分好词的文件data.conll，构建一个词典，输出到一个文件中，起名为word.dict
+      <li>mmp.py</li>正/逆向最大分词算法实现+评价程序
+    </ul>
   </ol>
 </ol>
 
