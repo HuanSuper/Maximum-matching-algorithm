@@ -23,7 +23,7 @@
 <li>程序</li>
   <ol>
     <li>数据</li>
-    data/data.conll
+    data/data.conll一个人工分好词的文件
     <li>代码</li>
     <ul>
       <li>make_data.py</li>将data.conll文件中的格式修改为：每行一句话，词语之间无空格，起名为data.txt
